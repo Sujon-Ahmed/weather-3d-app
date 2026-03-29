@@ -10,7 +10,7 @@ import { useRef } from "react";
 
 /* 🌧️ Rain */
 function Rain({ isDay }: { isDay?: boolean }) {
-  const ref = useRef<any>();
+  const ref = useRef<any>(null);
   const count = 3000;
 
   const positions = new Float32Array(count * 3);
@@ -47,7 +47,7 @@ function Rain({ isDay }: { isDay?: boolean }) {
 
 /* ☀️ Sun */
 const Sun = () => {
-  const ref = useRef<any>();
+  const ref = useRef<any>(null);
 
   useFrame(() => {
     if (ref.current) ref.current.rotation.y += 0.002;

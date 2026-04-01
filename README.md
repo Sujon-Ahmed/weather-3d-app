@@ -19,17 +19,6 @@ A modern, immersive **3D weather application** built with React, delivering real
 
 ---
 
-## 🖼️ Preview
-
-> Add screenshots or GIFs here for better engagement
-
-```
-/public/screenshots/preview-1.png
-/public/screenshots/preview-2.png
-```
-
----
-
 ## 🚀 Tech Stack
 
 * **React + TypeScript**
